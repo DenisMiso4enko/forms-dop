@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Spectral+SC:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normolaze.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <button class="btnOpen">Войти в личный кабинет</button>
+
+    <div class="overflow hidden">
+        <div class="modal__window">
+            <div class="card">
+                <button class="btnClose">
+                    <img src="img/bi_plus.svg" alt="close">
+                </button>
+                <h2 class="form__title">Войти в личный кабинет</h2>
+                <form action="#" method="get">
+                   
+                    <input type="tel" placeholder="Номер телефона" required>
+
+                    <input type="password" placeholder="Пароль" required>
+
+                    <div class="checkbox__wrapper">
+                        <input type="checkbox" id="check" class="chebox">
+                        <span class="fake"></span>
+                        <label for="check">Запомнить меня</label>
+                    </div>
+                    
+                    <div class="btn__wrapper">
+                        <button class="btn brown" type="submit">Войти</button>
+                        <a class="btn__fogot" href="#">Забыли пороль?</a>
+
+                    
+                    </div>
+                </form>
+                <p class="form__subtitle">
+                    Вы еще не зарегистрированы?
+                </p>
+                <button class="btn white" id="btn__regist" type="button">Регистрация</button>
+            </div>
+
+            <div class="card__password hidden">
+                <button class="btnClose">
+                    <img src="img/bi_plus.svg" alt="close">
+                </button>
+                <h2 class="form__title">Забыли пароль?</h2>
+                <form action="#" method="get">
+                    <input type="email" placeholder="Введите ваш E-mail" required>
+                    <p  class="card__password__text">На E-mail придет письмо со ссылкой на смену пароля</p>
+                    <button class="btn__send">Отправить</button>
+                   <!--  <button class="btn brown">Отправить</button> -->
+                </form>
+            </div>
+
+
+            <div class="card__regist hidden">
+                <button class="btnClose">
+                    <img src="img/bi_plus.svg" alt="close">
+                </button>
+                <form action="#" method="get">
+                    <h2 class="form__title">Регистрация</h2>
+                    <input type="text" placeholder="Имя" required>
+                    <input type="text" placeholder="Фамилия">
+                    <input type="text" placeholder="Отчество">
+                    <input type="tel" placeholder="Номертелефона" required>
+                    <input type="text" placeholder="E-mail" required>
+                    <input type="text" placeholder="Придумайтепароль" required minlenght="6">
+                    <input type="text" placeholder="Повторитепароль" required minlenght="6">
+                    <p class="card__regist__text">Пароль долженсодержать от 6 символов</p>
+                    <div class="btn__wrapper">
+                        <button class="btn brown" type="submit">зарегистрироваться</button>
+                    </div>
+                </form>
+                <div class="links__wrapper">
+                    <a class="accaunt" href="#">Есть аккаунт?</a>
+                    <button class="btn__enter">Войти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

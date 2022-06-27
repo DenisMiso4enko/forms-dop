@@ -1,0 +1,232 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Spectral SC', serif;
+ */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    color: #424242;
+    padding: 500px;
+
+}
+a {
+    color: inherit;
+}
+
+.btnOpen {
+    font-family: 'Spectral SC', serif;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;
+    padding: 13px 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+.overflow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(226, 225, 207, 0.5);
+    transition: all .9s;
+}
+.modal__window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ======= Карточка вход в кабинет ======== */
+.card {
+    width: 600px;
+    height: 717px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 40px;
+    position: relative;
+}
+.btn__wrapper:after {
+    content: '';
+    position: absolute;
+    width: 385px;
+    height: 1px;
+    background: #BDBDBD;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+}
+
+.btnClose {
+    display: flex;
+    background: none;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.form__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 40px;
+}
+input {
+    width: 385px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 83px;
+    padding: 16px 32px 16px 32px; 
+     margin: 0 auto; 
+    margin-bottom: 24px;
+} 
+.checkbox__wrapper {
+    margin-bottom: 40px;
+    padding-left: 107px;
+}
+#check {
+    display: none;
+}
+.fake {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 0.9px solid #BDBDBD;
+    border-radius: 3px;
+    position: relative;
+}
+.fake::before {
+    content: url(../img/ok.svg);
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-60%, -60%);
+    transition: .2s;
+}
+.btn__wrapper {
+    margin-bottom: 40px;
+}
+.btn {
+    font-family: 'Spectral SC', serif;
+    padding: 13px 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+.brown {
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;
+}
+.btn__fogot {
+    margin-left: 24px;
+}
+.form__subtitle {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.white {
+    background-color: #FFFFFF;
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD;
+    border-radius: 49px;
+   display: block;
+   margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ======= Карточка забыли пароль ======== */
+
+.card__password {
+    width: 600px;
+    height: 442px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.card__password__text {
+    margin-bottom: 40px;
+    margin-top: -12px;
+    padding-left: 107px;
+}
+.btn__send {
+    font-family: 'Spectral SC', serif;
+    padding: 13px 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;
+    margin: 0 auto;
+}
+/* ======= Карточка Регистрации ======== */
+
+.card__regist {
+    margin-top: 20px;
+    width: 600px;
+    height: 1020px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+    border-radius: 20px;
+}
+.card__wrapper {
+    padding: 0 107px;
+}
+.btnClose {
+}
+.form__title {
+}
+.card__regist__text {
+    margin-top: -12px;
+    margin-bottom: 40px;
+    padding-left: 107px;
+}
+.btn__wrapper {
+    text-align: center;
+}
+.btn {
+}
+.brown {
+}
+.accaunt {
+   display: block;
+    
+}
+.links__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn__enter {
+    font-family: 'Spectral SC', serif;
+    padding: 13px 45px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD;
+    border-radius: 49px;
+    margin-left: 24px;
+    display: block;
+   
+}
