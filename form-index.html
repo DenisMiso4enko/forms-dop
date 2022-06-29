@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-form.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+</head>
+<body>
+    <h2>Способо получения</h2>
+    <div class="form--wrapper">
+        <div class="form-send">
+            <form action="#" method="post" class="form">
+                <input class="input big" type="text" placeholder="Город" required>
+
+                <div class="select">
+                    <select name="send" id="1">
+                        <option value="1" selected>Почта России</option>
+                        <option value="2">EMS</option>
+                        <option value="3">СДЕК</option>
+                        <option value="3">Еще что-то</option>
+                    </select>
+                </div>
+               
+                <div class="adress">
+                    <input class="input middle" type="text" placeholder="Улица" required>
+                    <input class="input small" type="text" placeholder="Дом" required>
+                    <input class="input small" type="text" placeholder="Квартира">
+                    <input class="input small" type="text" placeholder="Индекс">
+                </div>
+                <input class="input large" type="text" placeholder="Добавить коментарий">
+
+
+                <h2>Данные покупателя</h2>
+                <div class="person-data">
+                    <input class="input person" type="text" placeholder="Фамилия">
+                    <input class="input person" type="text" placeholder="Имя" required>
+                    <input class="input person" type="text" placeholder="Отчество">
+                    <input class="input person" type="tel" placeholder="Номер телефона" required>
+                </div>
+                <p>
+                    По этому номеру телефона мы с вяжемся с вами для подтверждения заказа
+                </p>
+                <input class="input mail" type="email" placeholder="E-mail" required>
+                <p>
+                    На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания
+                </p>
+                <label class="label-box">
+                    <input type="checkbox" class="checkbox">
+                    <span class="fake-check"></span>
+                    <span class="text">Подписаться на рассылку новинок и акций</span>
+                </label>
+
+
+                <h2>Способо оплаты</h2>
+                <label class="label-radio">
+                    <input type="radio" class="radio" name="1">
+                    <span class="fake-radio"></span>
+                    <span class="text">Оплата при получении наличными или картой
+                </label>
+                <label class="label-radio">
+                    <input type="radio" class="radio" name="1">
+                    <span class="fake-radio"></span>
+                    <span class="text">Оплата банковской картой онлайн
+                </label>
+
+                <button class="btn" type="reset">
+                    Оформить доставку
+                </button>
+            </form>
+        </div>
+    </div>
+    
+   <!--  <h2>Данные покупателя</h2> -->
+    <!-- <div class="form-data">
+        <form action="#" method="post" class="data">
+            <div class="person">
+                <input class="input person" type="text" placeholder="Фамилия">
+                <input class="input person" type="text" placeholder="Имя">
+                <input class="input person" type="text" placeholder="Отчество">
+                <input class="input person" type="tel" placeholder="Номер телефона">
+            </div>
+            <p>
+                По этому номеру телефона мы с вяжемся с вами для подтверждения заказа
+            </p>
+            <input class="input mail" type="email" placeholder="E-mail">
+            <p>
+                На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания
+            </p>
+            <label>
+                <input type="checkbox">
+                <span class="fake"></span>
+                <span>Подписаться на рассылку новинок и акций</span>
+            </label>
+        </form>
+    </div> -->
+
+    
+</body>
+</html>
